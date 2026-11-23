@@ -111,7 +111,7 @@ public class DriveToAprilTagAuto extends OpMode {
     public void init() {
         leftDrive  = hardwareMap.get(DcMotor.class, "left_drive");
         rightDrive = hardwareMap.get(DcMotor.class, "right_drive");
-        leftDrive.setDirection(DcMotor.Direction.FORWARD);
+        leftDrive.setDirection(DcMotor.Direction.REVERSE);   // REVERSE since the drive cables were re-seated (same as BioBuzzStarterbotAuto)
         rightDrive.setDirection(DcMotor.Direction.REVERSE);
 
         try {

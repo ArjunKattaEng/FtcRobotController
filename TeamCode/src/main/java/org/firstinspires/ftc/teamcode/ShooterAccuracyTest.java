@@ -58,7 +58,7 @@ public class ShooterAccuracyTest extends OpMode {
     final int FEED_FLOOR = 150;             // safety: windmill stops if the launcher falls more than this below target
 
     // ================= Config names / directions (same as BioBuzzStarterbotAuto) =================
-    final DcMotorSimple.Direction LEFT_DIRECTION = DcMotorSimple.Direction.FORWARD;
+    final DcMotorSimple.Direction LEFT_DIRECTION = DcMotorSimple.Direction.REVERSE;   // REVERSE since the drive cables were re-seated
     final DcMotorSimple.Direction RIGHT_DIRECTION = DcMotorSimple.Direction.REVERSE;
     final DcMotorSimple.Direction WINDMILL_DIRECTION = DcMotorSimple.Direction.REVERSE;
     final RevHubOrientationOnRobot.LogoFacingDirection HUB_LOGO =
