@@ -62,7 +62,7 @@ public class ShooterAccuracyTest extends OpMode {
     final DcMotorSimple.Direction RIGHT_DIRECTION = DcMotorSimple.Direction.REVERSE;
     final DcMotorSimple.Direction WINDMILL_DIRECTION = DcMotorSimple.Direction.REVERSE;
     final RevHubOrientationOnRobot.LogoFacingDirection HUB_LOGO =
-            RevHubOrientationOnRobot.LogoFacingDirection.UP;
+            RevHubOrientationOnRobot.LogoFacingDirection.LEFT;   // hub stands on its edge; REV logo faces the robot's left (same as BioBuzzStarterbotAuto)
     final RevHubOrientationOnRobot.UsbFacingDirection HUB_USB =
             RevHubOrientationOnRobot.UsbFacingDirection.FORWARD;
 
