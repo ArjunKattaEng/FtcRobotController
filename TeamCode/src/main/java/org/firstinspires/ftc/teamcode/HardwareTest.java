@@ -64,7 +64,7 @@ public class HardwareTest extends OpMode {
         // Same directions as the competition code.
         if (motors[2] != null) motors[2].setDirection(INTAKE_DIRECTION);
         if (motors[3] != null) motors[3].setDirection(LAUNCHER_DIRECTION);
-        if (motors[0] != null) motors[0].setDirection(DcMotor.Direction.FORWARD);
+        if (motors[0] != null) motors[0].setDirection(DcMotor.Direction.REVERSE);   // left_drive: REVERSE since the drive cables were re-seated
         if (motors[1] != null) motors[1].setDirection(DcMotor.Direction.REVERSE);
 
         try {
